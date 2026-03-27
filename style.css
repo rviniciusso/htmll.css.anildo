@@ -1,0 +1,57 @@
+#container{
+    width: 100%;
+    height: 900px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5dc;
+}
+
+#topo{
+    height: 200px;
+    text-align: center;
+    color: black;  
+    background-color: blueviolet;  
+    
+}
+#menu{
+    height: 620px;
+    width: 600px;
+    background-color: black;
+    float: left;
+    margin-right: 20px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#conteudo{
+    height: 300px;
+    width: 800px;
+    background-color: brown;
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#conteudo2{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(42, 165, 79);
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#rodape{
+    height: 200px;
+    width: 100%;
+    background-color: blueviolet;
+    text-align: center;
+    clear: both;
+}
+
+body{
+    background-color: blue;
+    margin: 0;
+}
