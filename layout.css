@@ -5,60 +5,22 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-}
-
-header {
-    background-color: rgb(8, 150, 150);
-    padding: 30px;
-    text-align: left;
-    font-size: 20px;
-    color: aliceblue;
-}
-
-nav {
-    float: left;
-    width: 30%;
-    height: auto;
-    background-color: aqua;
-    padding: 20px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
+    background-color: blue;
 }
 
 article {
     float: left;
-    width: 70%;
+    width: 40%;
     height: auto;
     background-color: rgb(255, 0, 191);
     padding: 20px;
-}
-
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-footer {
-    background-color: rgb(8, 150, 150);
-    padding: 30px;
-    text-align: right;
-    font-size: 20px;
-    color: aliceblue;
+    margin-left: 6%;
+    margin-top: 3%;
 }
 
 @media (max-width: 600px) {
     nav, article{
-        width: 100%;
+        width: 89%;
         height: auto;
-    }
-    header {
-        padding: 20px;
-        text-align: center;
-        font-size: 15px;
-        color: aliceblue;
     }
 }
